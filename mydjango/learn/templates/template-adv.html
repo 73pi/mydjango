@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板进阶展示</title>
+</head>
+<body>
+
+<h4>显示字符串</h4>
+{{ string }}
+
+<h4>for循环中遍历列表</h4>
+<ul>
+{% for i in List %}
+<!-- 类似forloop.last有（.后加）：counter,counter0,revcounter,revcounter0,first,last,parentloop -->
+    <li>{{i}}{% if not forloop.last %},{% endif %}</li>
+{% empty %}
+    <li>列表为空</li>
+{% endfor %}
+</ul>
+
+<h4>视图对应的网址</h4>
+<a href="{% url 'add2' 4 5 %}">4+5=</a>
+
+<h4>获取信息</h4>
+<ul>
+    <li>{{ request.uesr }}</li>
+    <li>{{ request.path }}</li>
+    <li>{{ request.GET.urlencode }}</li>
+</ul>
+
+</body>
+</html>

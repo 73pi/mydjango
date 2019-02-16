@@ -30,3 +30,11 @@ def old_too_new_url(request, a, b):
     # reverse接收url中的name作为第一个参数，我们在代码中就可以通过reverse()来获取对应的网址
     # 只要对应的url的name不改，就不用改代码中的网址。
     return HttpResponseRedirect(reverse('add2', args=(a, b)))
+
+
+def template_adv(requset):
+    arg = {}
+    arg['string'] = "这是字符串展示！"
+    arg['List'] = ["列表展示1", "列表展示2", "列表展示3", "列表展示4"]
+    arg['info_dict'] = {'site': 'django', 'content': '学习'}
+    return render(requset, 'template-adv.html', arg)

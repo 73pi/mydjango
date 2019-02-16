@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1418fd3-34d5-4807-abc2-e31ecf440858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/templates/template-adv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydjango/urls.py" afterDir="false" />
     </list>
@@ -26,26 +24,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="41" />
-          <entry key="py" value="711" />
+          <entry key="html" value="527" />
+          <entry key="py" value="900" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="41" />
-          <entry key="Python" value="711" />
+          <entry key="HTML" value="527" />
+          <entry key="Python" value="900" />
         </counts>
       </usages-collector>
     </session>
@@ -55,24 +53,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mydjango/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="462">
+              <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="e#26#61#0" expanded="true" />
+                <marker date="1550323639169" expanded="true" signature="278:385" ph="..." />
+                <marker date="1550323639169" expanded="true" signature="409:464" ph="..." />
+                <marker date="1550323639169" expanded="true" signature="494:499" ph="..." />
+                <marker date="1550323639169" expanded="true" signature="722:727" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learn/views.py">
+        <entry file="file://$PROJECT_DIR$/learn/templates/template-adv.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#26#61#0" expanded="true" />
-                <marker date="1550310139022" expanded="true" signature="278:385" ph="..." />
-                <marker date="1550310139022" expanded="true" signature="409:464" ph="..." />
-                <marker date="1550310139022" expanded="true" signature="494:499" ph="..." />
-                <marker date="1550310139022" expanded="true" signature="722:727" ph="..." />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -80,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mydjango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="382">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="e#561#602#0" expanded="true" />
               </folding>
@@ -113,10 +120,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mydjango/settings.py" />
         <option value="$PROJECT_DIR$/learn/templates/home.html" />
-        <option value="$PROJECT_DIR$/mydjango/urls.py" />
         <option value="$PROJECT_DIR$/learn/views.py" />
+        <option value="$PROJECT_DIR$/mydjango/settings.py" />
+        <option value="$PROJECT_DIR$/mydjango/urls.py" />
+        <option value="$PROJECT_DIR$/learn/templates/template-adv.html" />
       </list>
     </option>
   </component>
@@ -218,13 +226,6 @@
     <entry file="file://$PROJECT_DIR$/mydjango/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -232,27 +233,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydjango/urls.py">
+    <entry file="file://$PROJECT_DIR$/learn/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
+            <marker date="1550323639169" expanded="true" signature="278:385" ph="..." />
+            <marker date="1550323639169" expanded="true" signature="409:464" ph="..." />
+            <marker date="1550323639169" expanded="true" signature="494:499" ph="..." />
+            <marker date="1550323639169" expanded="true" signature="722:727" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="e#561#602#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/views.py">
+    <entry file="file://$PROJECT_DIR$/learn/templates/template-adv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#26#61#0" expanded="true" />
-            <marker date="1550310139022" expanded="true" signature="278:385" ph="..." />
-            <marker date="1550310139022" expanded="true" signature="409:464" ph="..." />
-            <marker date="1550310139022" expanded="true" signature="494:499" ph="..." />
-            <marker date="1550310139022" expanded="true" signature="722:727" ph="..." />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>

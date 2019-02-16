@@ -1,0 +1,25 @@
+1.新建项目：django-admin startproject [项目名]
+2.新建app(到项目目录下)：python manage.py startapp [app名]
+3.创建数据库：
+python manage.py makemigrations #创建更改文件
+python manage.py migrate #应用到数据库
+4.开启服务:
+python manage.py runserver #默认访问：127.0.0.1:8000
+python manage.py runserver [指定端口]
+#远程访问
+python manage.py runserver 0.0.0.0:9999 #ip:9999
+5.清空数据库 
+python manage.py flush
+6.创建超级管理员
+python manage.py createsuperuser
+#改密码
+python manage.py changepassword username
+7.导入导出数据库
+#导出
+python manage.py dumpdata appname > appname.json
+#导入
+python manage.py loaddata appname.json
+8.项目终端运行
+python manage.py shell
+9.数据运行
+python manage.py dbshell

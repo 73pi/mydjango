@@ -14,7 +14,13 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from learn import views as learn_view
 
 urlpatterns = [
+    url(r'^first_template/', learn_view.frist_template, name='home'),
+    url(r'^new_add/(\d+)/(\d+)/$', learn_view.add2, name='add2'),
+    url(r'^add/(\d+)/(\d+)/$', learn_view.old_too_new_url),
+    url(r'^add/$', learn_view.add, name='add'),
+    url(r'^first/', learn_view.index),
     url(r'^admin/', include(admin.site.urls)),
 ]

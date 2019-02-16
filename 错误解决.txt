@@ -1,0 +1,8 @@
+error：
+CommandError: You appear not to have the ‘sqlite3’ program installed or on your path.
+解决：
+1、下载sqlite3【http://www.sqlite.org/sqlite-shell-win32-x86-3071401.zip】 
+
+2、将sqlite3.exe文件放入（C:\Python27\Scripts）中 
+
+3、再次运行python manage.py dbshell

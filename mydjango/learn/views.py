@@ -32,9 +32,13 @@ def old_too_new_url(request, a, b):
     return HttpResponseRedirect(reverse('add2', args=(a, b)))
 
 
-def template_adv(requset):
+def template_adv(request):
     arg = {}
     arg['string'] = "这是字符串展示！"
     arg['List'] = ["列表展示1", "列表展示2", "列表展示3", "列表展示4"]
     arg['info_dict'] = {'site': 'django', 'content': '学习'}
-    return render(requset, 'template-adv.html', arg)
+    return render(request, 'template-adv.html', arg)
+
+# 表单
+def form(request):
+    return render(request, 'form.html')

@@ -1,0 +1,1 @@
+新建的app添加到 settings.py 中的 INSTALLED_APPS中，也就是告诉Django有这么一个应用

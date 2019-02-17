@@ -17,6 +17,7 @@ from django.contrib import admin
 from learn import views as learn_view
 
 urlpatterns = [
+    url(r'^form/', learn_view.form, name='form'),
     url(r'^template_adv/', learn_view.template_adv),
     url(r'^first_template/', learn_view.frist_template, name='home'),
     url(r'^new_add/(\d+)/(\d+)/$', learn_view.add2, name='add2'),

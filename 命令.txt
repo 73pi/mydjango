@@ -14,7 +14,7 @@ python manage.py flush
 python manage.py createsuperuser
 #改密码
 python manage.py changepassword username
-7.导入导出数据库
+7.导出导入数据库
 #导出
 python manage.py dumpdata appname > appname.json
 #导入
